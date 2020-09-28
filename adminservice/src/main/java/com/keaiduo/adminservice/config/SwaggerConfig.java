@@ -25,7 +25,6 @@ public class SwaggerConfig {
                         .basePackage("com.keaiduo.adminservice.controller"))
                 .paths(PathSelectors.any())
                 .build();
-
     }
 
     private ApiInfo buildApiInf() {
